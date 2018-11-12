@@ -32,7 +32,7 @@ public class FirefoxTest {
 
         testUrl = "https://leftstick.github.io/";
 
-        System.setProperty("webdriver.gecko.driver","webdriver/geckodriver");
+        System.setProperty("webdriver.gecko.driver","/usr/local/bin/geckodriver");
 
         // Create a new instance of the Chrome driver
         // Notice that the remainder of the code relies on the interface,
