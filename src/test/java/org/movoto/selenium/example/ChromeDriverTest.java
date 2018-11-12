@@ -31,10 +31,7 @@ public class ChromeDriverTest {
     @Before
     public void prepare() {
         //setup chromedriver
-        System.setProperty(
-                "webdriver.chrome.driver",
-                "webdriver/chromedriver");
-
+        System.setProperty("webdriver.chrome.driver","/usr/local/bin/geckodriver");
         testUrl = "https://leftstick.github.io/";
 
         // Create a new instance of the Chrome driver
